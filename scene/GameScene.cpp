@@ -25,7 +25,7 @@ void GameScene::Initialize() {
 	//自キャラの生成
 	player_ = new Player();
 	
-	player_->Initialize(model_, textureHandle_);
+	player_->Initialize(model_, textureHande_);
 }
 
 void GameScene::Update() { 
